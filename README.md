@@ -1,4 +1,4 @@
 seng440
 =======
 
-Embedded Systems
+Embedded Systems -- Final Project submission and code

@@ -1,0 +1,24 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+100.90      0.24     0.24        1   242.16   242.16  pw2log
+
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) for 4.13% of 0.24 seconds
+
+index % time    self  children    called     name
+                0.24    0.00       1/1           main [2]
+[1]    100.0    0.24    0.00       1         pw2log [1]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]    100.0    0.00    0.24                 main [2]
+                0.24    0.00       1/1           pw2log [1]
+-----------------------------------------------
+
+Index by function name
+
+   [1] pw2log
